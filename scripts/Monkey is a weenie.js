@@ -2,7 +2,7 @@
 export default {
     "version": "2.0.1",
     //the owner password to edit config in game
-    "OWNER_PASSWORD": "",
+    "OWNER_PASSWORD": 1234 "",
     "other":{
         //dev stuff
         "consoleDebugMode": true,
@@ -15,7 +15,7 @@ export default {
     "combat": {
         "autoclicker":{
             //if player cps go over this number, player gets flagged for autoclicker
-            "maxCps": 17
+            "maxCps": 8
         },
         "killaura":{
             //if player attacks this or many more number of entities in a single tick, gets flagged for killaura
@@ -30,9 +30,9 @@ export default {
             //1 - kill player
             //2 - clear inventory
             //3 - ban player (duration specified in "punishmentTime")
-            "punishmentType": 3,
+            "punishmentType": 0,
             //enabling this will send an alert when player combat logs to everyone in game
-            "alwaysSendAlert": false,
+            "alwaysSendAlert": true,
             //valid input: <number> <day|hour|minute>
             "punishmentTime": "15 minute",
             //if admins don't get affected by anti combatlogging
