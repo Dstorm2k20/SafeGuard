@@ -1,8 +1,8 @@
 //Edit items in this file if you want customization:
 export default {
-    "version": "2.0.1",
+    "version": "2.0.2",
     //the owner password to edit config in game
-    "OWNER_PASSWORD": "",
+    "OWNER_PASSWORD"1234"",
     "other":{
         //dev stuff
         "consoleDebugMode": true,
@@ -82,7 +82,7 @@ export default {
             //will teleport all the players up in the air constantly
             "minBorderDistance": 500,
             //if admins can go beyond world border
-            "adminsBypassBorder": true,
+            "adminsBypassBorder": false,
         }
     },
     "chat":{
